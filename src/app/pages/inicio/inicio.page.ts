@@ -14,7 +14,7 @@ interface Componente {
 export class InicioPage implements OnInit {
   componentes: Componente[] = [
     {
-      icon: 'american-football-outline',
+      icon: 'leaf-outline',
       name: 'Action Sheet',
       redirectTo: '/action-sheet',
     },
@@ -22,6 +22,46 @@ export class InicioPage implements OnInit {
       icon: 'alert-circle-outline',
       name: 'Alert',
       redirectTo: '/alert',
+    },
+    {
+      icon: 'person-outline',
+      name: 'Avatar',
+      redirectTo: '/avatar',
+    },
+    {
+      icon: 'rocket-outline',
+      name: 'Buttons',
+      redirectTo: '/botons',
+    },
+    {
+      icon: 'card-outline',
+      name: 'Cards',
+      redirectTo: '/card',
+    },
+    {
+      icon: 'checkmark-done-outline',
+      name: 'CheckBox',
+      redirectTo: '/check',
+    },
+    {
+      icon: 'calendar-outline',
+      name: 'DateTime',
+      redirectTo: '/date-time',
+    },
+    {
+      icon: 'flame-outline',
+      name: 'Fab',
+      redirectTo: '/fab',
+    },
+    {
+      icon: 'grid-outline',
+      name: 'Grid',
+      redirectTo: '/grid',
+    },
+    {
+      icon: 'infinite-outline',
+      name: 'Infinite Scroll',
+      redirectTo: '/infinit',
     },
   ];
 
