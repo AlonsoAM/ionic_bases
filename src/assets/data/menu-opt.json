@@ -68,5 +68,15 @@
     "icon": "reload-circle-outline",
     "name": "Loading",
     "redirectTo": "/loading"
+  },
+  {
+    "icon": "chevron-up-circle-outline",
+    "name": "Modal",
+    "redirectTo": "/modal"
+  },
+  {
+    "icon": "car-sport-outline",
+    "name": "Popover",
+    "redirectTo": "/popover"
   }
 ]

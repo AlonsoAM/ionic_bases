@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> {{nombre}} - {{pais}} </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- Cerrar sin argumentos de retorno -->
+  <ion-button (click)="salirSinArgumentos()" expand="block">
+    Salir sin Argumentos
+  </ion-button>
+
+  <!-- Cerrar con argumentos de retorno - comuniacion padre - hijo / hijo - padre -->
+  <ion-button (click)="salirConArgumentos()" expand="block">
+    Salir con Argumentos
+  </ion-button>
+</ion-content>
